@@ -1,0 +1,11 @@
+
+/* 
+Quando você vê algo como .container[_ngcontent-ng-c298862081] em um
+arquivo CSS ou HTML em um projeto Angular, o que você está observando
+são atributos de escopo gerados pelo Angular para garantir que os estilos
+CSS sejam aplicados de forma correta e isolada a um componente específico.
+*/
+
+.container {
+    background-color: red;
+}
