@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="title">{{task.title}}</div>
+    <div>Dias para finalizar {{daysToFinish}}</div>
+    <div>
+        <button [disabled]="isComplete" (click)="completeTask()">
+            Completar
+        </button>
+        <br/>
+        @if(isComplete) {
+            <span>Completado</span>
+        } @else {
+            <span>Em aberto</span>
+        }
+    </div>
+</div>
