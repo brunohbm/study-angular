@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 // Um componente autônomo é um componente que define standalone: ​​true nos metadados 
 // de seu componente. Eles importam diretamente outros componentes, diretivas e pipes usados ​​em seus modelos.
-// A equipe Angular recomenda o uso de componentes independentes para todos os novos desenvolvimentos.
+// A equipe Angular recomenda o uso de componentes autônomos para todos os novos desenvolvimentos.
 
 // Diferença entre NgModules e Standalone Components (Angular 14>=).
 
@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
 // maior flexibilidade na modularização do código.
 
 @Component({
-  selector: 'app-standalone',
+  selector: 'sa-standalone',
   standalone: true,
   imports: [],
   templateUrl: './standalone.component.html',
