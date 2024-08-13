@@ -4,6 +4,7 @@ import { TodoListComponent } from './todo-list-tutorial/todo-list/todo-list.comp
 import { ComponentAnatomyComponent } from './component-tutorial/anatomy/component-anatomy.component';
 import { AttributeSelectorDirective } from './component-tutorial/attribute-selector/attribute-selector.directive';
 import { OtherSelectorsDirective } from './component-tutorial/other-selectors/other-selectors.directive';
+import { StyleEncapsulationComponent } from './component-tutorial/style-encapsulation/style-encapsulation.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { OtherSelectorsDirective } from './component-tutorial/other-selectors/ot
     ComponentAnatomyComponent,
     AttributeSelectorDirective,
     OtherSelectorsDirective,
+    StyleEncapsulationComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
