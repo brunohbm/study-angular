@@ -5,6 +5,7 @@ import { ComponentAnatomyComponent } from './component-tutorial/anatomy/componen
 import { AttributeSelectorDirective } from './component-tutorial/attribute-selector/attribute-selector.directive';
 import { OtherSelectorsDirective } from './component-tutorial/other-selectors/other-selectors.directive';
 import { StyleEncapsulationComponent } from './component-tutorial/style-encapsulation/style-encapsulation.component';
+import { InputsComponent } from './component-tutorial/inputs/inputs.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { StyleEncapsulationComponent } from './component-tutorial/style-encapsul
     AttributeSelectorDirective,
     OtherSelectorsDirective,
     StyleEncapsulationComponent,
+    InputsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
