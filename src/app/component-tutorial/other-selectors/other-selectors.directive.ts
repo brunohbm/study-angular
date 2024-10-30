@@ -1,6 +1,6 @@
-import { Directive, HostListener, HostBinding } from '@angular/core';
+import { Directive, HostListener } from '@angular/core';
 
-// Angula só suporta a pseudo-classe :not. 
+// Angular só suporta a pseudo-classe :not. 
 @Directive({
   selector: '.hover-selector:not(span), h1, button[disabled]',
   standalone: true
