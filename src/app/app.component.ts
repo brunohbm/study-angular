@@ -6,6 +6,8 @@ import { AttributeSelectorDirective } from './component-tutorial/attribute-selec
 import { OtherSelectorsDirective } from './component-tutorial/other-selectors/other-selectors.directive';
 import { StyleEncapsulationComponent } from './component-tutorial/style-encapsulation/style-encapsulation.component';
 import { InputsComponent } from './component-tutorial/inputs/inputs.component';
+import { CardComponent } from './card/card.component';
+import { BindingComponent } from './binding/binding.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +20,8 @@ import { InputsComponent } from './component-tutorial/inputs/inputs.component';
     OtherSelectorsDirective,
     StyleEncapsulationComponent,
     InputsComponent,
+    CardComponent,
+    BindingComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

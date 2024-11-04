@@ -1,5 +1,21 @@
 <main class="main">
   <div class="content">
+    <app-binding />
+    <app-card>
+      <div cardTitle>
+        cardTitle
+      </div>
+      <div cardBody>
+        cardBody
+      </div>
+      <div cardBody>
+        cardBody
+      </div>
+      <!-- Angular compares against the ngProjectAs value instead of the element's identity -->
+      <div cardBody ngProjectAs="cardHeader">
+        cardHeader
+      </div>
+    </app-card>
     <todo-list />
     <sa-component-anatomy />
     <div dropzone class="dropzone-area">
@@ -18,14 +34,8 @@
       Exemplo de seletor de elementos do html
     </button>
     <app-style-encapsulation />
-    <app-inputs
-      [inputRequired]="'Required'"
-      [inputTransform]="10"
-      [aliasInput]="'Alias'"
-      [aliasInput2]="'Alias2'"
-      [getSetter]="10"
-      [writeOnlyInput]="10"
-    />
+    <app-inputs [inputRequired]="'Required'" [inputTransform]="10" [aliasInput]="'Alias'" [aliasInput2]="'Alias2'"
+      [getSetter]="10" [writeOnlyInput]="10" />    
   </div>
 </main>
 
