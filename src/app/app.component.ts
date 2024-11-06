@@ -8,6 +8,7 @@ import { StyleEncapsulationComponent } from './component-tutorial/style-encapsul
 import { InputsComponent } from './component-tutorial/inputs/inputs.component';
 import { CardComponent } from './card/card.component';
 import { BindingComponent } from './binding/binding.component';
+import { InheritanceComponent } from './inheritance/inheritance.component';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +23,7 @@ import { BindingComponent } from './binding/binding.component';
     InputsComponent,
     CardComponent,
     BindingComponent,
+    InheritanceComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
