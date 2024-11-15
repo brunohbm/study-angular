@@ -9,6 +9,7 @@ import { InputsComponent } from './component-tutorial/inputs/inputs.component';
 import { CardComponent } from './card/card.component';
 import { BindingComponent } from './binding/binding.component';
 import { InheritanceComponent } from './inheritance/inheritance.component';
+import { HighlightDirective } from './highlight.directive';
 
 @Component({
   selector: 'app-root',
@@ -24,10 +25,12 @@ import { InheritanceComponent } from './inheritance/inheritance.component';
     CardComponent,
     BindingComponent,
     InheritanceComponent,
+    HighlightDirective,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'my-first-angular-app';
+  text = 'TESTE';
 }

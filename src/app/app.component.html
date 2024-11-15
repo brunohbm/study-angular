@@ -1,4 +1,9 @@
 <main class="main">
+  <p ngNonBindable>This should not evaluate: {{ 1 + 1 }}</p>
+  <button (click)="text = 'TESTE007'">Teste</button>
+  <p appHighlight>
+    {{text}}
+  </p>
   <div class="content">
     <app-inheritance />
     <app-binding />
